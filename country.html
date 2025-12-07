@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>country.html</title>
+     <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+          
+
+    
+
+     <div class="loader d-none" id="loader">
+         <div class="spinner-border text-primary" role="status"></div>
+        <p>loading....</p>
+    </div>  
+
+    
+      <div id="content">
+          <div class="container py-5">
+        <div class="row">
+            <div class="col-md-12 g-4">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md-4">
+                              <a
+                           href="index.html"
+                           class="btn btn-outline-info btn-md m-5" id="backBtn">&lArr; BACK</a>
+                            <img src="https://flagcdn.com/w320/ag.png" alt="Country Flag" id="flagImg"
+                                class="img-fluid">
+                        </div>
+                        
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 id="countryName"></h2>
+                                <ul class="list-group list-group-flush mt-3">
+                                    <li class="list-group-item">
+                                        <strong>Official Name :</strong>
+                                        <span id="officialName"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Capital :</strong>
+                                        <span id="capital"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Region :</strong>
+                                        <span id="region"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Sub Region :</strong>
+                                        <span id="subRegion"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Population :</strong>
+                                        <span id="population"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Area :</strong>
+                                        <span id="area"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Languages :</strong>
+                                        <span id="languages"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Currencies :</strong>
+                                        <span id="currencies"></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Maps :</strong>
+                                        <span><a  href="javascript:;" target="blank" id="maplink"></a></span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Borders :</strong>
+                                        <div id="borders"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                    
+                        </div>
+
+                </div>
+                </div>  
+            </div>
+        </div>
+         
+    </div>
+      </div>
+   
+   
+
+    <!--<button
+    onclick="history.back()"
+    class="btn btn-outline-info btn-sm">&lArr; Back</button>-->
+
+    
+   <script src="assets/js/country.js"></script> 
+</body>
+</html>
+
+
+
